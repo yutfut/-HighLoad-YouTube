@@ -110,6 +110,7 @@
 |Загрузка видео          | 237     |
 |Просмотр                |50 659 часов в секнду|
 
-
+## 3. Логическая схема
+![](https://github.com/yutfut/HighLoad-YouTube/blob/master/image/db.jpg)
 
 
