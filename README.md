@@ -20,6 +20,7 @@
 - Загрузка видео
 - Просмотр видео
 - Комментирование видео
+- Лайк
 
 ### Целевая аудитория
 У [**YouTube**](https://www.globalmediainsight.com/blog/youtube-users-statistics/) более 2,6 миллиардов активных пользователей в месяц.
@@ -76,7 +77,6 @@
 Так как все видео надо хранить минимум в двух экземплярах
 
 > 342 186 Пб
-
 
 #### Сетевой трафик
 > В среднем посетитель проводит  на YouTube 14 минут и 21 секунду  каждый день.
@@ -171,6 +171,58 @@
 ![](https://github.com/yutfut/HighLoad-YouTube/blob/master/image/HL_1.jpg)
 
 ## 7. Список серверов <a name="7"></a>
+Для расположения такого колличества серверов можно воспользоваться услугами компании [Amazon](https://aws.amazon.com/ru/about-aws/global-infrastructure/regional-product-services/?p=ngi&loc=4), чьи дата-центры находятся по всему миру. Можно равномерно расположить сервера по ДЦ для увелечения стабильности. \
+Важно расположить сервера в центральной Азии из-за большой плотности насления и большого кол-ва бедных стран, что является причной преимущественно слабых и мобильных устройств, а так же плохой связи 
+* Северная Америка (Калифорния)
+* Бразилия (Сан-Паулу)
+* Европа (Франкфурт)
+* Индия (Мумбаи)
+* Китай (Гонконг)
+* Республика Сингапур (Сингапур)
+* Австралия (Сидней)
+
+### Выделим типы серверов в датацентре
+* Nginx
+* Backend
+* Postgresql
+* Redis
+* Хранилища видео на SSD
+* Хранилища видео на HDD
+
+####Конфигурация сервера Nginx
+* CPU 32
+* RAM 32 Gb
+* SSD 256 Gb
+
+####Конфигурация сервера Backend
+* CPU 32
+* RAM 256 Gb
+* SSD 256 Gb
+
+####Конфигурация сервера Postgresql
+* CPU 32
+* RAM 512 Gb
+* 8 HDD дисков по 8 Tb
+
+####Конфигурация сервера Redis
+* CPU 32
+* RAM 128 Gb
+* SSD 256 Gb
+
+####Конфигурация сервера Хранилища видео на SSD
+* CPU 32
+* RAM 128 Gb
+* 8 SSD дисков по 8 Tb
+
+####Конфигурация сервера Хранилища видео на HDD
+* CPU 32
+* RAM 128 Gb
+* 8 HDD дисков по 8 Tb
 
 ## 8. Источники <a name="8"></a>
+1. https://www.globalmediainsight.com/blog/youtube-users-statistics/
+2. https://exlibris.ru/news/statistika-youtube-2019-infografika/
+3. https://tubularlabs.com/blog/3-metrics-youtube-success/
+4. https://aws.amazon.com/ru/about-aws/global-infrastructure/regional-product-services/?p=ngi&loc=4
+5. http://7youtube.ru/news/skolko-vesit-video.html
 
