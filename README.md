@@ -293,4 +293,5 @@
 3. https://tubularlabs.com/blog/3-metrics-youtube-success/
 4. https://aws.amazon.com/ru/about-aws/global-infrastructure/regional-product-services/?p=ngi&loc=4
 5. http://7youtube.ru/news/skolko-vesit-video.html
+6. https://lpgenerator.ru/blog/2021/10/07/statistika-youtube-kotoruyu-nuzhno-znat-v-2021/#obshchaya-statistika-youtube-2021
 
